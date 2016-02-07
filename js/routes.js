@@ -8,6 +8,9 @@ angular.module('bundy')
             .when('/funcionarios', {
                 templateUrl: '/templates/pages/funcionarios/index.html'
             })
+            .when('/empresas', {
+                templateUrl: '/templates/pages/empresas/index.html'
+            })
             .when('/', {
                 templateUrl: '/templates/pages/funcionarios/index.html'
             })
