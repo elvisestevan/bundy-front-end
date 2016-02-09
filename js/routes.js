@@ -9,7 +9,9 @@ angular.module('bundy')
                 templateUrl: '/templates/pages/funcionarios/index.html'
             })
             .when('/empresas', {
-                templateUrl: '/templates/pages/empresas/index.html'
+                templateUrl: '/templates/pages/empresas/index.html',
+                controller: 'EmpresasIndexController',
+                controllerAs: 'indexController'
             })
             .when('/', {
                 templateUrl: '/templates/pages/funcionarios/index.html'
